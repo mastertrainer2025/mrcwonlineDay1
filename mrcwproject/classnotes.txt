@@ -100,7 +100,17 @@ Views + URL
 
 function(logic) + URL
 
+static files :
 
+https://docs.djangoproject.com/en/6.0/howto/static-files/
+
+1. installed apps -> check django.contrib.staticfiles
+2.Static URL --> in setting.py 
+
+STATIC_URL = 'static/'
+
+3. create static folder 
+add your files ->style.css
 
 
 

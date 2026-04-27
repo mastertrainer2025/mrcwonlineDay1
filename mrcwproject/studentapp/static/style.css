@@ -1,0 +1,10 @@
+
+body {
+    background-color: rgb(30, 235, 37);
+}
+
+.bigtext{
+    font-size: 50px;
+    color: rgb(255, 0, 0);
+    text-align: center;
+}
