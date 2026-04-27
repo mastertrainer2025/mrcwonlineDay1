@@ -21,4 +21,5 @@ from django.urls import include, path
 urlpatterns = [
     path('studentapp/', include('studentapp.urls')),
     
+    
 ]

@@ -14,3 +14,6 @@ def evening(request):
 
 def night(request):
     return HttpResponse("Good Night, World!")
+    
+def html(request):
+    return render(request, 'index.html')

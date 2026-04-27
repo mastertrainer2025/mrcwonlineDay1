@@ -23,5 +23,6 @@ urlpatterns = [
     path('morning/', views.morning, name='morning'),
     path('evening/', views.evening, name='evening'),
     path('night/', views.night, name='night'),
+    path('htmlpage/', views.html, name='html'),
 
 ]
