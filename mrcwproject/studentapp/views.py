@@ -17,3 +17,13 @@ def night(request):
     
 def html(request):
     return render(request, 'index.html')
+def registration(request):
+    return render(request, 'registration.html')
+def login(request):
+    return render(request, 'login.html')
+def dashboard(request):
+    return render(request, 'dashboard.html')
+def profile(request):
+    return render(request, 'profile.html')
+def contact(request):
+    return render(request, 'contact.html')

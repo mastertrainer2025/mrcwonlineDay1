@@ -24,5 +24,9 @@ urlpatterns = [
     path('evening/', views.evening, name='evening'),
     path('night/', views.night, name='night'),
     path('htmlpage/', views.html, name='html'),
-
+    path('registration/', views.registration, name='registration'),
+    path('login/', views.login, name='login'),
+    path('dashboard/', views.dashboard, name='dashboard'),
+    path('profile/', views.profile, name='profile'),
+    path('contact/', views.contact, name='contact'),
 ]

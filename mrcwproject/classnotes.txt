@@ -112,6 +112,9 @@ STATIC_URL = 'static/'
 3. create static folder 
 add your files ->style.css
 
+navigation between multiples
+load multiple pages in one page
+
 
 
 
