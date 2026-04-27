@@ -1,0 +1,107 @@
+Good Morning Students,
+
+Class will begin at 10:10 am:
+
+Day 1: Backend :Django -
+Day 2: Django - , Assessment
+Day 3:Capstone -
+Day 4:Capstone Project Support /Assistance
+      Mock Presentation - 40 marks
+Team x: 
+team member 1 - 35/40
+team member 2 - 37/40
+team member 3 - Absent - ( No certificate)
+Day 5: Mock Presentation / Final Assessment
+
+Django:
+
+
+Practicals
+:
+Create a Django Project
+Start/Run Django
+Create django application 
+Hello wolrd Page
+HTML Pages/ Code
+CSS(Static files- Css ,Images)
+Dynamic Web Pages - Python
+
+MVT
+Templates - HTML,CSS,Js,multimedia Files 
+Views - > Python Logic
+Model - > Databases 
+
+
+Requirments:
+1.python Installation
+
+
+Steps to Create a project
+
+1.create a virtual Environment
+python -m venv "ENVNAME"
+2.activate virtual environment
+ .\myenv\Scripts\activate
+3.install Django
+  pip install Django
+  django-admin --version
+4.create a Django project
+
+django-admin startproject mrcwproject
+5.run a Django project
+
+cd mrcwproject
+
+python manage.py runserver
+
+
+
+2. Creating Hello World
+
+Ecommerce Project:
+
+flipkart.com/seller/add
+flipkart.com/user/login
+payment/
+tracking/
+returns/
+
+
+mrcw/studentapp
+mrcw/facultyapp
+mrcw/adminapp
+
+Create a app
+
+python manage.py startapp studentapp
+python manage.py startapp facultyapp
+python manage.py startapp adminapp
+
+
+
+
+
+Hello World:
+
+1.register app in settings.py
+2.create a urls.py in application
+3.write logic(function) in views.py
+4.add url(link) to urls.py(create page)
+5.add url in project
+
+VIews.py & urls.py
+GOod morning 
+GOod afternoon
+Good Evening
+
+
+Views + URL
+
+
+function(logic) + URL
+
+
+
+
+
+
