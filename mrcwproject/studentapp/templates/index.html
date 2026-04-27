@@ -12,6 +12,17 @@
 <body>
     <h1 class="bigtext"> Malla Reddy Womens COllege</h1>
     <h1 style="color: chartreuse;">Welcome to the Student App</h1>
+    <nav class="navbar">
+        <div class="logo">MyBrand</div>
+        <ul class="nav-links">
+            <li><a href="{% url 'dashboard' %}">Dashboard</a></li>
+            <li><a href="{% url 'registration' %}">Register</a></li>
+            <li><a href="{% url 'profile' %}">Profile</a></li>
+            <li><a href="{% url 'contact' %}">Contact</a></li>
+            <li><a href="{% url 'login' %}" class="login-btn">Login</a></li>
+        </ul>
+    </nav>
+
     <h1>Developed by MRCW Students </h1>
     <img src="{% static 'lamb.jpg' %}" alt="Lamborghini" width="500" height="300">
 </body>
